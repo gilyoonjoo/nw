@@ -23,3 +23,4 @@ if __name__=='__main__':
     p2 = multiprocessing.Process(target=yes, args=(2,))
     p1.start()
     p2.start()
+    
